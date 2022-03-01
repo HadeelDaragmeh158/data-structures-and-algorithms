@@ -7,4 +7,4 @@
 | Challenge 01 | [Link](https://github.com/HadeelDaragmeh158/data-structures-and-algorithms/blob/main/javaChallenge/README.md) |
 | Challenge 02 | Link |
 | Challenge 03 | Link |
-| Challenge 04 | Link |
+| Challenge 04 | [Link](https://github.com/HadeelDaragmeh158/data-structures-and-algorithms/blob/main/Challenge04/Challenge04.md) |
