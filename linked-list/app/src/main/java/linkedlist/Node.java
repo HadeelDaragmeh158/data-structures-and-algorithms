@@ -1,7 +1,8 @@
-package linked.list;
+package linkedlist;
 
 public class Node<T> {
-     Node Next;
+     Node<T> Next;
+     Node<T> precedent;
      T Value ;
 
     public Node (T Value){
