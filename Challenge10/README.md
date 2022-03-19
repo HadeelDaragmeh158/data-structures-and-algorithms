@@ -6,7 +6,7 @@ rite strucrure queue and stack with testing
 ## Approach & Efficiency
  O(n) 
 
-## API
+
  #### Stack methods:
 - push
     Arguments: value
