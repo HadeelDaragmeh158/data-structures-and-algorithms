@@ -1,3 +1,9 @@
+
+
+
+
+![](../../../../../Downloads/whitboards (1).jpg)
+
 - [x] Can successfully instantiate an empty linked list
 - [x] Can properly insert into the linked list
 - [x] The head property will properly point to the first node in the linked list

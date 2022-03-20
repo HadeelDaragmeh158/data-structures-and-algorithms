@@ -7,5 +7,67 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+    LinkedList <Integer> testList = new LinkedList<Integer>();
 
+    @Test
+    void testInsert(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insert(3);
+        testList.insert(4);
+        System.out.println(testList.toString());
+
+        assertEquals("{ 4 }=> { 3 }=> { 2 }=> { 1 }=> {NULL}",testList.toString() );
+    }
+    @Test
+    void testIncludeFalse(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insert(3);
+
+        assertEquals(false,  testList.includes( 8));
+    }
+    @Test
+    void testIncludeTrue(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insert(3);
+
+        assertEquals(true,  testList.includes( 3));
+    }
+    @Test
+    void testAppend(){
+        testList.append(20);
+
+        assertEquals("{ 20 }=> {NULL}", testList.toString());
+    }
+    @Test
+    void testInsertBefor(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insertBefor(2,20);
+
+        assertEquals("{ 20 }=> { 2 }=> { 1 }=> {NULL}", testList.toString());
+    }
+    @Test
+    void testInsertAfter(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insertAfter(2,20);
+
+        assertEquals("{ 2 }=> { 20 }=> { 1 }=> {NULL}", testList,toString());
+    }
+    @Test
+    void testkthFromEnd(){
+        testList.insert(1);
+        testList.insert(2);
+        testList.insert(3);
+
+        assertEquals(3, testList.kthFromEnd(2));
+    }
+    @Test
+    void testkthFromEndNull(){
+
+        assertEquals("Exception", testList.kthFromEnd(5));
+    }
 }

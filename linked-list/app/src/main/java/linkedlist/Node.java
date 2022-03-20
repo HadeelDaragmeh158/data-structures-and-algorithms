@@ -1,12 +1,12 @@
 package linkedlist;
 
 public class Node<T> {
-     Node<T> Next;
+     Node<T> next;
      Node<T> precedent;
-     T Value ;
+     T value ;
 
-    public Node (T Value){
-        this.Value = Value;
+    public Node (T value){
+        this.value = value;
 
     }
 }

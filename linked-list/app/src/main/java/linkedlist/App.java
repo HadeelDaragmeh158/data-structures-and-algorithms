@@ -16,29 +16,29 @@ public class App {
        // System.out.println("item number is "+List.getItemsNumber());
 
         System.out.println("\ninclude ");
-        System.out.println("The include bool" + List.includes( 8));
-        System.out.println("The include bool" + List.includes(1));
-        System.out.println("To String  "+List.ToString());
+        System.out.println("The include bool " + List.includes( 8));
+        System.out.println("The include bool " + List.includes(1));
+        System.out.println("To String  "+List.toString());
         //System.out.println("item number is "+List.getItemsNumber());
 
         System.out.println("\n Append ");
         List.append(20);
-        System.out.println("To String  "+List.ToString());
+        System.out.println("To String  "+List.toString());
      //   System.out.println("item number is "+List.getItemsNumber());
 
         System.out.println("\n insertBefor ");
         List.insertBefor(5, 12);
-        System.out.println("To String  "+List.ToString());
+        System.out.println("To String  "+List.toString());
        // System.out.println("item number is "+List.getItemsNumber());
 
         System.out.println("\n insertAfter ");
         List.insertAfter(8,27);
-        System.out.println("To String insertAfter "+List.ToString());
+        System.out.println("To String insertAfter "+List.toString());
        // System.out.println("item number is "+List.getItemsNumber());
 
         System.out.println("\n kthFromEnd ");
         System.out.println(List.kthFromEnd(8));
-        System.out.println(List.kthFromEnd(5));
+        System.out.println(List.kthFromEnd(1));
 
     }
 }

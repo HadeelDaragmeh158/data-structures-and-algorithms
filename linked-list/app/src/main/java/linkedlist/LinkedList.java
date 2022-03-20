@@ -10,15 +10,13 @@ public class LinkedList <T>{
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 public void insert(T Value ){
-//    Arguments: value
-//    Returns: nothing
-//    Adds a new node with that value to the head of the list with an O(1) Time performance.
     Node<T> FirsNode = new Node<>(Value);
-    FirsNode.Next=this.head;
-    if (this.head==null){
-        this.tail=FirsNode;
+    FirsNode.next =this.head;
+
+    if (head==null){
+        tail=FirsNode;
     }else{
-        FirsNode.Next.precedent=FirsNode;
+        FirsNode.next.precedent=FirsNode;
     }
     this.head=FirsNode;
     itemsNumber++;
@@ -27,37 +25,38 @@ public void insert(T Value ){
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-public  Boolean includes(T Value){
-//    Arguments: value
-//    Returns: Boolean
-//    Indicates whether that value exists as a Node’s value somewhere within the list.
-    Node<T> thePointer =this.head;
-    boolean result=false;
-    while(thePointer!=null )
-    {
-        if(thePointer.Value==Value){
-            result=true;
-            break;
-        }
-
-        thePointer=thePointer.Next;
+public  boolean includes(T value) {
+    if(head == null){
+        return false;
     }
-    return result;
+
+    Node<T> incloudeSearch = head;
+
+    while (incloudeSearch != null) {
+
+        if (incloudeSearch.value == value) {
+            return true;
+        }
+        incloudeSearch = incloudeSearch.next;
+    }
+    return false;
+
 }
 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-public String ToString(){
+public String toString(){
 //   Arguments: none
 //   Returns: a string representing all the values in the Linked List, formatted as:
 //   "{ a } -> { b } -> { c } -> NULL"
     Node<T> thePointerS=this.head;
     String Str = new String("");
     while(thePointerS != null){
-        Str+="{ "+thePointerS.Value+" }=> ";
-        thePointerS=thePointerS.Next;
+        Str+="{ "+thePointerS.value+" }=> ";
+        thePointerS=thePointerS.next;
     }
 
     Str+="{NULL}";
@@ -75,12 +74,12 @@ public void append(T value){
         head = node ;
 
     }else {
- node.Next=null;
+ node.next =null;
     Node<T> lastOne=head;
     while(lastOne!=null){
-        lastOne= lastOne.Next;
+        lastOne= lastOne.next;
     }
-    lastOne.Next=node;
+    lastOne.next =node;
     itemsNumber++;
     }}catch (NullPointerException e){
        System.out.println("NullPointerException");
@@ -96,18 +95,18 @@ public void  insertBefor(T value , T newValue ) {
 //adds a new node with the given new value immediately before the
 // first node that has the value specified
     Node<T> thisNode = this.head;
-    if (thisNode.Value == value) {
+    if (thisNode.value == value) {
         insert(newValue);
         itemsNumber++;
-    }while(thisNode.Next!=null){
+    }while(thisNode.next !=null){
         Node <T> node =new Node<>(newValue);
-        if (thisNode.Next.Value==value){
-            node.Next=thisNode.Next;
-            thisNode.Next=node;
+        if (thisNode.next.value==value){
+            node.next =thisNode.next;
+            thisNode.next =node;
             itemsNumber++;
             break;
             }
-        thisNode=thisNode.Next;
+        thisNode=thisNode.next;
         itemsNumber++;
     }
 }
@@ -121,17 +120,17 @@ public void  insertBefor(T value , T newValue ) {
 // immediately after the first node that has the value specified
     Node<T> thisNode=this.head;
     Node<T> node = new Node<>(newValue);
-    if (tail.Value==value){
+    if (tail.value==value){
         append(newValue);
     }
     while(thisNode !=null){
-        if(thisNode.Value==value){
-            node.Next=thisNode.Next;
-            thisNode.Next=node;
+        if(thisNode.value==value){
+            node.next =thisNode.next;
+            thisNode.next =node;
             itemsNumber++;
             break;
         }
-        thisNode=thisNode.Next;
+        thisNode=thisNode.next;
      }
 
     }
@@ -144,15 +143,13 @@ public int getItemsNumber(){
 }
 
  public T kthFromEnd(int k) {
-     //    argument: a number, k, as a parameter.
-     //Return the node’s value that is k places from the tail of the linked list.
-     //You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
      int index=0;
      Node<T> node =this.tail;
+
      try{
          while(node!=null) {
              if (index == k)
-                 return (T) node.Value;
+                 return (T) node.value;
              index++;
              node = node.precedent;
          }
