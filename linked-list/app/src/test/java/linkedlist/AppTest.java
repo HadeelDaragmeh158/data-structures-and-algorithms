@@ -55,7 +55,7 @@ class AppTest {
         testList.insert(2);
         testList.insertAfter(2,20);
 
-        assertEquals("{ 2 }=> { 20 }=> { 1 }=> {NULL}", testList,toString());
+        assertEquals("{ 2 }=> { 20 }=> { 1 }=> {NULL}", testList.toString());
     }
     @Test
     void testkthFromEnd(){
