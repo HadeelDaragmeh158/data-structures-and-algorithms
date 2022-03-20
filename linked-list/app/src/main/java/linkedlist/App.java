@@ -40,5 +40,43 @@ public class App {
         System.out.println(List.kthFromEnd(8));
         System.out.println(List.kthFromEnd(1));
 
+        LinkedList <Integer> List1 = new LinkedList<Integer>();
+        System.out.println("\ninsert\n");
+
+        List1.insert(8);
+        List1.insert(5);
+
+
+        LinkedList <Integer> List2 = new LinkedList<Integer>();
+        System.out.println("\ninsert\n");
+
+        List2.insert(5);
+        List2.insert(52);
+        List2.insert(1);
+
+
+        LinkedList list3= zipLists(List1, List2);
+        System.out.println(list3);
+    }
+    public static LinkedList zipLists(LinkedList list1,LinkedList list2){
+        LinkedList zipLink = new LinkedList();
+        Node pointer1 = list1.head;
+        Node pointer2 = list2.head;
+
+        while (pointer1 != null || pointer2 != null){
+        if (pointer1==null){
+            zipLink.append(pointer2.value);
+            pointer2=pointer2.next;
+        }else if (pointer2==null){
+            zipLink.append(pointer1.value);
+            pointer1= pointer1.next;
+        }else{
+            zipLink.append(pointer1.value);
+            zipLink.append(pointer2.value);
+            pointer1= pointer1.next;
+            pointer2=pointer2.next;
+        }
+       }
+        return zipLink;
     }
 }

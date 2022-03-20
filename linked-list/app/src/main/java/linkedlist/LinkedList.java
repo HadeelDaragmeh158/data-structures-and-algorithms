@@ -69,23 +69,23 @@ public String toString(){
 public void append(T value){
 //arguments: new value
 //adds a new node with the given value to the end of the list
-    Node <T> node =new Node<>(value);
-   try{ if (this.head == null){
+    Node <T> node = new Node<>(value );
+    Node <T> pointer =this.head;
+    if (this.head == null){
         head = node ;
-
     }else {
- node.next =null;
-    Node<T> lastOne=head;
-    while(lastOne!=null){
-        lastOne= lastOne.next;
-    }
-    lastOne.next =node;
-    itemsNumber++;
-    }}catch (NullPointerException e){
-       System.out.println("NullPointerException");
-   }
 
-}
+    while(pointer!=null){
+       if(pointer.next==null){
+           pointer.next =node;
+           node.next=null;
+           break;
+       }
+        pointer= pointer.next;
+    }
+    itemsNumber++;
+
+}}
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
