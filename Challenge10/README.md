@@ -2,28 +2,22 @@
 Stack class and Queue class in the same packege with super Node class 
 
 ## Challenge
-rite strucrure queue and stack with testing 
+write strucrure queue and stack with testing 
+Queue class to add from front and remove from the first elemente
+Stack class to add in top
+
 ## Approach & Efficiency
- O(n) 
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+#### Stack Big O:
+- Time O(n)
+- Space O(n)
 
+#### Queue Big O:
+- Time O(n)
+- Space O(n)
 
- #### Stack methods:
-- push
-    Arguments: value
-    adds a new node with that value to the top of the stack with an O(1) Time performance.
-- pop
-    Arguments: none
-    Returns: the value from node from the top of the stack
-    Removes the node from the top of the stack
-    Should raise exception when called on empty stack
-- peek
-    Arguments: none
-    Returns: Value of the node located at the top of the stack
-    Should raise exception when called on empty stack
-- is empty
-    Arguments: none
-    Returns: Boolean indicating whether or not the stack is empty.
-    
+## API
+<!-- Description of each method publicly available to your Stack and Queue--> 
 #### Queue
 - enqueue
     Arguments: value
@@ -40,4 +34,22 @@ rite strucrure queue and stack with testing
 - is empty
     Arguments: none
     Returns: Boolean indicating whether or not the queue is empty
+    
+  
+ #### Stack methods:
+- push
+    Arguments: value
+    adds a new node with that value to the top of the stack with an O(1) Time performance.
+- pop
+    Arguments: none
+    Returns: the value from node from the top of the stack
+    Removes the node from the top of the stack
+    Should raise exception when called on empty stack
+- peek
+    Arguments: none
+    Returns: Value of the node located at the top of the stack
+    Should raise exception when called on empty stack
+- is empty
+    Arguments: none
+    Returns: Boolean indicating whether or not the stack is empty.
     
