@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d0d3e2-c498-4486-b94f-6b84e62caf33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge02/app/src/main/java/arraySheft/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge02/app/src/main/java/arraySheft/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge07/app/src/main/java/linkedListKth/Node.java" beforeDir="false" />
@@ -24,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/bracketsStackQueue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/bracketsStackQueue/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +71,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AppTest">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bracketsStackQueue.App" />
       <module name="bracketsStackQueue.app.main" />
@@ -71,6 +79,138 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testValid (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValid&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testValidFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValidFalse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testValidNoBrackets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValidNoBrackets&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testValidNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValidNull&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Gradle.AppTest.testValid (1)" />
+      <item itemvalue="Gradle.AppTest.testValidFalse" />
+      <item itemvalue="Gradle.AppTest" />
+      <item itemvalue="Gradle.AppTest.testValidNull" />
+      <item itemvalue="Gradle.AppTest.testValidNoBrackets" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AppTest" />
+        <item itemvalue="Gradle.AppTest.testValidNoBrackets" />
+        <item itemvalue="Gradle.AppTest.testValidNull" />
+        <item itemvalue="Gradle.AppTest.testValidFalse" />
+        <item itemvalue="Gradle.AppTest.testValid (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
