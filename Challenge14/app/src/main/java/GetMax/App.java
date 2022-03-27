@@ -17,8 +17,10 @@ public class App {
         stack.push(20);
 
         System.out.println(stack);
+        System.out.println("************************************************");
         System.out.println("Max is : ");
         System.out.println(stack.getMax());
+        System.out.println("************************************************");
     }
 
 }
