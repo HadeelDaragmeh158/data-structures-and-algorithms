@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd9d5c72-5ef3-4fce-8e47-d2384e806461" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Challenge07/app/src/main/java/linkedListKth/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge07/app/src/main/java/linkedListKth/linkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge11/app/src/main/java/stack/queue/pseudo/stackqueuepseudoPackage/pseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/app/src/main/java/stack/queue/pseudo/stackqueuepseudoPackage/pseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/classes/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/classes/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/classes/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/classes/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="arraySheft" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26y5GiTbEK6aP5v9fxQ1KawxJfv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="arraySheft.App" />
+      <module name="arraySheft.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd9d5c72-5ef3-4fce-8e47-d2384e806461" name="Changes" comment="" />
+      <created>1648382920978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648382920978</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -51,7 +51,7 @@ public class AnimalShelter {
     @Override
     public String toString() {
         return "AnimalShelter{" +
-                "catQueue=" + catQueue +
+                "catQueue=" + catQueue +"\n"+
                 ", dogQueue=" + dogQueue +
                 '}';
     }
