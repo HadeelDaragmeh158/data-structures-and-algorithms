@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90d0d3e2-c498-4486-b94f-6b84e62caf33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/bracketsStackQueue/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge02/app/src/main/java/arraySheft/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge02/app/src/main/java/arraySheft/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge07/app/src/main/java/linkedListKth/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge07/app/src/main/java/linkedListKth/linkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge11/app/src/main/java/stack/queue/pseudo/stackqueuepseudoPackage/pseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/app/src/main/java/stack/queue/pseudo/stackqueuepseudoPackage/pseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/main/java/AnimalShelter/classes/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge12/app/src/test/java/AnimalShelter/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26zL5Hwi7lAPfivUFQfLj3r1mEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bracketsStackQueue.App" />
+      <module name="bracketsStackQueue.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90d0d3e2-c498-4486-b94f-6b84e62caf33" name="Changes" comment="" />
+      <created>1648421299337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648421299337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
