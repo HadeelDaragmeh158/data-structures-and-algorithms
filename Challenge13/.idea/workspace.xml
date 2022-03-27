@@ -148,15 +148,65 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AppTest.testValidNoBrackets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValidNoBrackets&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testValidNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;bracketsStackQueue.AppTest.testValidNull&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Gradle.AppTest.testValid (1)" />
       <item itemvalue="Gradle.AppTest.testValidFalse" />
       <item itemvalue="Gradle.AppTest" />
+      <item itemvalue="Gradle.AppTest.testValidNull" />
+      <item itemvalue="Gradle.AppTest.testValidNoBrackets" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AppTest" />
+        <item itemvalue="Gradle.AppTest.testValidNoBrackets" />
+        <item itemvalue="Gradle.AppTest.testValidNull" />
         <item itemvalue="Gradle.AppTest.testValidFalse" />
         <item itemvalue="Gradle.AppTest.testValid (1)" />
       </list>

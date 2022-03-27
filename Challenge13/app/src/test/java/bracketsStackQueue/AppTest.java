@@ -27,4 +27,15 @@ class AppTest {
 
         assertEquals(false,brackets1.validateBrackets());
     }
+    @Test
+    public void testValidNull(){
+        String validate1 = "()[[Extra Characters]]";
+        String validate2 = "{}{Code}[Fellows](())";
+        String validate3 = "(](";
+        String validate4 = "";
+        Brackets brackets1= new Brackets(validate4);
+
+        assertEquals(true,brackets1.validateBrackets());
+    }
+
 }
