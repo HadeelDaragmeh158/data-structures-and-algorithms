@@ -1,1 +1,5 @@
+# insertShiftArray
+its an array that we can insert elsement in the middle by shifted the elements
+
+
 ![Screenshot (606)](https://user-images.githubusercontent.com/97829483/160285449-f773dc21-86c8-44cc-b61b-1faf3c4db3f0.png)
