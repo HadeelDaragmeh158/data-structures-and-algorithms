@@ -7,8 +7,52 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+
+    @Test
+    void testBt(){
+        BinaryTree bt =new BinaryTree();
+        bt.setRoot(new Node(5));
+        bt.getRoot().setLeftNode(new Node (8));
+        bt.getRoot().setRightNode(new Node<>(15));
+        bt.getRoot().getLeftNode().setLeftNode(new Node(1));
+        bt.getRoot().getLeftNode().setRightNode(new Node (27));
+
+        assertEquals("{root  5  8  1  27  15}", bt);
+    }
+    @Test
+    void postTestt(){
+        BinaryTree postTest = new BinaryTree<>();
+        postTest.setRoot(new Node(5));
+        postTest.getRoot().setLeftNode(new Node (8));
+        postTest.getRoot().setRightNode(new Node<>(15));
+        postTest.getRoot().getLeftNode().setLeftNode(new Node(1));
+        postTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        postTest.postOrder(postTest.getRoot());
+
+        assertEquals("[1, 27, 8, 15, 5]", postTest.getPostOrder());
+    }
+
+    @Test void inTestt(){
+        BinaryTree inTest = new BinaryTree<>();
+        inTest.setRoot(new Node(5));
+        inTest.getRoot().setLeftNode(new Node (8));
+        inTest.getRoot().setRightNode(new Node<>(15));
+        inTest.getRoot().getLeftNode().setLeftNode(new Node(1));
+        inTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        inTest.inOrder(inTest.getRoot());
+
+        assertEquals("[1, 8, 27, 5, 15]", inTest.getInOrder());
+    }
+
+    @Test void preTestt(){
+        BinaryTree preTest = new BinaryTree<>();
+        preTest.setRoot(new Node(5));
+        preTest.getRoot().setLeftNode(new Node (8));
+        preTest.getRoot().setRightNode(new Node<>(15));
+        preTest.getRoot().getLeftNode().setLeftNode(new Node(1));
+        preTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        preTest.preOrder(preTest.getRoot());
+
+        assertEquals("[5, 8, 1, 27, 15]", preTest.getPreOrder());
     }
 }
