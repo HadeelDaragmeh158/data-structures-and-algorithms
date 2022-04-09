@@ -7,10 +7,10 @@ public class App {
         System.out.println("\n");
         BinaryTree bt =new BinaryTree();
         bt.setRoot(new Node(5));
-        bt.getRoot().setLeftNode(new Node (8));
+        bt.getRoot().setLeftNode(new Node<> (8));
         bt.getRoot().setRightNode(new Node<>(15));
-        bt.getRoot().getLeftNode().setLeftNode(new Node(1));
-        bt.getRoot().getLeftNode().setRightNode(new Node (27));
+        bt.getRoot().getLeftNode().setLeftNode(new Node<>(1));
+        bt.getRoot().getLeftNode().setRightNode(new Node<> (27));
 
         System.out.println("\n");
         System.out.println("_____________________TEST BT_________________________________");
@@ -21,10 +21,10 @@ public class App {
         System.out.println("\n");
         BinaryTree postTest = new BinaryTree<>();
         postTest.setRoot(new Node(5));
-        postTest.getRoot().setLeftNode(new Node (8));
+        postTest.getRoot().setLeftNode(new Node<> (8));
         postTest.getRoot().setRightNode(new Node<>(15));
-        postTest.getRoot().getLeftNode().setLeftNode(new Node(1));
-        postTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        postTest.getRoot().getLeftNode().setLeftNode(new Node<>(1));
+        postTest.getRoot().getLeftNode().setRightNode(new Node<> (27));
         postTest.postOrder(postTest.getRoot());
 
         System.out.println("_____________________TEST POSTORDER__________________________");
@@ -37,8 +37,8 @@ public class App {
         inTest.setRoot(new Node(5));
         inTest.getRoot().setLeftNode(new Node (8));
         inTest.getRoot().setRightNode(new Node<>(15));
-        inTest.getRoot().getLeftNode().setLeftNode(new Node(1));
-        inTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        inTest.getRoot().getLeftNode().setLeftNode(new Node<>(1));
+        inTest.getRoot().getLeftNode().setRightNode(new Node<> (27));
         inTest.inOrder(inTest.getRoot());
 
         System.out.println("_____________________TEST INORDER__________________________");
@@ -49,16 +49,23 @@ public class App {
         System.out.println("\n");
         BinaryTree preTest = new BinaryTree<>();
         preTest.setRoot(new Node(5));
-        preTest.getRoot().setLeftNode(new Node (8));
+        preTest.getRoot().setLeftNode(new Node <>(8));
         preTest.getRoot().setRightNode(new Node<>(15));
-        preTest.getRoot().getLeftNode().setLeftNode(new Node(1));
-        preTest.getRoot().getLeftNode().setRightNode(new Node (27));
+        preTest.getRoot().getLeftNode().setLeftNode(new Node<>(1));
+        preTest.getRoot().getLeftNode().setRightNode(new Node<> (27));
         preTest.preOrder(preTest.getRoot());
 
         System.out.println("_____________________TEST PREORDER__________________________");
         System.out.println("_____________________________________________________________\n");
         System.out.println(preTest.getPreOrder());
         System.out.println("_____________________________________________________________");
+
+        BinarySearchTree bst = new BinarySearchTree(new Node<>(100) );
+        bst.add(5);
+        bst.add(15);
+        bst.add(55);
+        bst.add(225);
+        System.out.println(bst.getMax());
 
     }
 }
