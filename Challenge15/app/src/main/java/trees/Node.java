@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import static java.sql.Types.NULL;
 
 public class Node <T>{
-    private final int  data;
-    private Node<T> leftNode;
-    private Node<T> rightNode;
+    final int  data;
+    Node<T> leftNode;
+    Node<T> rightNode;
 
     public Node(int data) {
         this.data = data;

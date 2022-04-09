@@ -1,6 +1,7 @@
 package trees;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class BinarySearchTree extends BinaryTree{
     private Node root;
@@ -80,7 +81,31 @@ public class BinarySearchTree extends BinaryTree{
             max(node.getRightNode());
         }
     }
+    public List breadthFirst ()
+    {
+        List<Integer> bF = new ArrayList<>();
 
+        if(this.root==null)
+        {
+            return bF;
+        }
+        Queue <Node<Integer>> queue= new Queue<>();
+        queue.enqueue(this.root);
+
+        while(!queue.isEmpty()){
+            Node <Integer> node= queue.dequeue().value;
+
+            bF.add( node.data);
+            if(node.leftNode!=null){
+                queue.enqueue(node.leftNode);
+            }
+
+            if(node.rightNode!=null) {
+                queue.enqueue(node.rightNode);
+            }
+        }
+        return bF ;
+    }
 
     @Override
     public String toString() {

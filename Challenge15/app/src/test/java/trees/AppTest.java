@@ -78,4 +78,16 @@ class AppTest {
 
         assertEquals(225,bst.getMax() );
     }
+    @Test
+    void testBF(){
+        BinarySearchTree bst = new BinarySearchTree(new Node<>(100) );
+        bst.add(5);
+        bst.add(15);
+        bst.add(55);
+        bst.add(225);
+        System.out.println(bst.breadthFirst());
+        assertEquals("[100, 5, 225, 15, 55]",String.valueOf(bst.breadthFirst() ));
+    }
+
+
 }
