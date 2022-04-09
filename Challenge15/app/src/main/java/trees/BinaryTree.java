@@ -1,6 +1,7 @@
 package trees;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class BinaryTree<T extends Comparable<T>>{
@@ -69,6 +70,7 @@ public class BinaryTree<T extends Comparable<T>>{
         }
 
     }
+
 
     @Override
     public String toString() {
