@@ -3,8 +3,8 @@
  */
 package AnimalShelter;
 
-import classes.Animal;
-import classes.AnimalShelter;
+import AnimalShelter.classes.Animal;
+import AnimalShelter.classes.AnimalShelter;
 
 public class App {
 

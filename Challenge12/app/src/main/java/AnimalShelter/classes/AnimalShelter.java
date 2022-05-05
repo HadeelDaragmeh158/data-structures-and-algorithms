@@ -1,4 +1,4 @@
-package classes;
+package AnimalShelter.classes;
 
 public class AnimalShelter {
   private Queue<Animal> catQueue = new Queue<>();

@@ -21,14 +21,14 @@ public class KAray {
     public void setRoot(Node root) {
         this.root = root;
     }
-    public  void printTree(Node Root){
+    public  void print(Node Root){
         String str = Root.getValue() + " --> ";
         for (int i = 0; i <Root.getNideTree().size() ; i++) {
             str =str +Root.getNideTree().get(i)+",";
         }
         System.out.println(str);
         for (int i = 0; i <Root.getNideTree().size() ; i++) {
-            printTree(Root.getNideTree().get(i));
+            print(Root.getNideTree().get(i));
         }
     }
 

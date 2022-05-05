@@ -1,4 +1,4 @@
-package classes;
+package AnimalShelter.classes;
 
 public class Node<T> {
     private T value;
