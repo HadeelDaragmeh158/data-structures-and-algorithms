@@ -3,18 +3,23 @@
  */
 package AnimalShelter;
 
-import classes.Animal;
-import classes.AnimalShelter;
+import AnimalShelter.classes.Animal;
+import AnimalShelter.classes.AnimalShelter;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+//
+//@Test
+//  public  void testAnimals(){
+//    AnimalShelter myAnimal=new AnimalShelter();
+//    myAnimal.enQueue(new Animal("dog"));
+//    myAnimal.enQueue(new Animal("dog"));
+//    String data = String.valueOf(myAnimal.deQueue("dog"));
+//    assertEquals("{dog}",data);
+//}
+  @Test
+  public void pushsomth (){
 
-@Test
-    void testAnimals(){
-    AnimalShelter myAnimal=new AnimalShelter();
-    myAnimal.enQueue(new Animal("dog"));
-    myAnimal.enQueue(new Animal("dog"));
-    assertEquals("{dog}",myAnimal.deQueue("dog").toString() );
-}
+  }
 }

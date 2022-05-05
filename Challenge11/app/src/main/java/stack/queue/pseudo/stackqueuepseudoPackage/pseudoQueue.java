@@ -43,7 +43,6 @@ public void enqueue(T value){
                 reflectDtackAndPop.push(myStack.peek());
                 myStack.pop();
             }
-
             T valDeleted = (T) reflectDtackAndPop.pop();
             while (!reflectDtackAndPop.isEmpty()) {
                 myStack.push(reflectDtackAndPop.peek());
@@ -55,11 +54,11 @@ public void enqueue(T value){
 
     @Override
     public String toString() {
-    Node pointer = myStack.getTop();
-    String stackList = "";
-    while (pointer != null){
-    stackList=stackList + "["+ pointer.getValue()+"] -> ";
-    pointer = pointer.getNext();
+        Node pointer = myStack.getTop();
+        String stackList = "";
+        while (pointer != null){
+        stackList=stackList + "["+ pointer.getValue()+"] -> ";
+        pointer = pointer.getNext();
     }
     return  stackList;
     }

@@ -1,4 +1,4 @@
-package classes;
+package AnimalShelter.classes;
 import java.util.EmptyStackException;
 
 public class Queue <T>{
