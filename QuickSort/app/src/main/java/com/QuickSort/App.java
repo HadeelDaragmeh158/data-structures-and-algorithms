@@ -3,7 +3,6 @@
  */
 package com.QuickSort;
 
-import java.util.ArrayList;
 
 public class App {
 
@@ -11,32 +10,37 @@ public class App {
 
     }
 
-    public static void quickSort(ArrayList<Integer> arr , int left , int right){
-        if(left < right){
-            int position =  partition(arr, left, right) ;
-            quickSort(arr, left, position - 1);
-            quickSort(arr, position + 1, right);
+    public void quickSort(int arr[], int left, int right) {
+        if (left < right) {
+            int partitionIndex = partition(arr, left, right);
+
+            quickSort(arr, left, partitionIndex-1);
+
+            quickSort(arr, partitionIndex+1, right);
         }
-
     }
+    private int partition(int arr[], int left, int right) {
+        int pivot = arr[right];
+        int low = (left-1);
 
-    public static int partition(ArrayList<Integer> arr , int left , int right){
-        int pivot = arr.get(right);
-        int low = left - 1 ;
-        for (int i = left ; i < right ; i++){
-            if (arr.get(i) <= pivot){
+        for (int index = left; index < right; index++) {
+
+            if (arr[index] <= pivot) {
                 low++;
-                swap(arr, i, low)  ;
+                swap(arr, index, low);
             }
-
         }
-        swap(arr, right, low + 1);
-        return low + 1 ;
+
+        swap(arr, right, low+1);
+
+        return low + 1;
     }
 
-    public static void swap(ArrayList<Integer> arr, int i, int low){
-        int temp = arr.get(i);
-        arr.set(i , arr.get(low));
-        arr.set(low , temp);
+
+    public static void swap(int[] arr ,int i, int low){
+
+        int temp = arr[i];
+        arr[i] = arr[low];
+        arr[low] = temp;
     }
 }
