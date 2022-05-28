@@ -1,6 +1,7 @@
 package com.hashtable;
 
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Objects;
 
 
@@ -31,24 +32,19 @@ public class HashMap <K, V>{
         return Objects.hashCode(key);
     }
 
-    private int getBucketIndex(K key) {
-        int hashCode = hashCode(key);
-        int arrayIndex = hashCode % buckets;
 
-        arrayIndex = arrayIndex < 0 ? arrayIndex * -1 : arrayIndex;
 
-        System.out.println("The index of => " + key + " is => " + arrayIndex);
 
-        return arrayIndex;
-    }
+
+
 
     public void set(K key, V value) {
+
         int index = hash(key);
-        int hashcode = hashCode(key);
+        int hash = hashCode(key);
 
         HashNode<K, V> head = bucketArray.get(index);
-
-        HashNode<K, V> newNode = new HashNode<>(key, value, hashcode);
+        HashNode<K, V> newNode = new HashNode<>(key, value, hash);
 
         if (head == null) {
             bucketArray.set(index, newNode);
@@ -76,34 +72,32 @@ public class HashMap <K, V>{
         }
     }
 
-
     public V get(K key) {
         int index = hash(key);
-        int hashcode = hashCode(key);
+        int hash = hashCode(key);
         HashNode<K, V> head = bucketArray.get(index);
 
         while (head != null) {
-            if (head.getKey().equals(key) && head.getHashCode().equals(hashcode))
+            if (head.getKey().equals(key) && head.getHashCode().equals(hash))
                 return head.getValue();
             head = head.getNext();
         }
         return null;
     }
 
-    public boolean contatins(K key) throws Exception {
+    public boolean contains(K key) {
         int index = hash(key);
-        int hashCodeVar = hashCode(key );
-        HashNode<K , V > headNode = bucketArray.get(index);
-
-        if (key  != null)
-            throw new Exception("null key");
-
-        while (headNode != null){
-
-            if (headNode.getKey().equals(key) && headNode.getHashCode().equals(hashCodeVar))
-                return true;
+        int  hash = hashCode(key);
+        HashNode<K, V> head = bucketArray.get(index);
+        if (key == null) {
+            throw new IllegalArgumentException("error occured !");
         }
-      return false ;
+        while(head != null) {
+            if (head.getKey().equals(key) && head.getHashCode().equals(hash))
+                return true;
+            head = head.getNext();
+        }
+        return false;
     }
 
     public ArrayList<K> keys (){
@@ -121,6 +115,17 @@ public class HashMap <K, V>{
         return keysList;
     }
 
+    private int getBucketIndex(K key) {
+        int hashCode = hashCode(key);
+        int index = hashCode % buckets;
+
+        index = index < 0 ? index * -1 : index;
+
+        System.out.println( "[" + key + "  => " + index + "]") ;
+
+        return index;
+    }
+
     public int hash( K key){
 
         int hashCodeVar = hashCode(key);
@@ -129,4 +134,22 @@ public class HashMap <K, V>{
 
         return index;
     }
+
+
+    public String repeatedWord(String str){
+        String replaceComma = str.replace(",","");
+        String[] arr = replaceComma.split(" ");
+        Map<String,Integer> wordsList = (Map<String, Integer>) new HashMap<String,Integer>();
+        for (String subStr : arr){
+            Integer count = wordsList.get(subStr.toLowerCase());
+            if(count != null){
+                wordsList.put(subStr.toLowerCase(), count +1);
+                return subStr.toLowerCase();
+            }else {
+                wordsList.put(subStr.toLowerCase(), 0);
+            }
+        }
+        return "no result ";
+    }
+
 }

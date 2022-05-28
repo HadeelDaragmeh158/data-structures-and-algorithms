@@ -3,9 +3,6 @@
  */
 package com.hashtable;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //Setting a key/value to your hashtable results in the value being in the data structure
 //Retrieving based on a key returns the value stored
@@ -14,27 +11,4 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //Successfully handle a collision within the hashtable
 //Successfully retrieve a value from a bucket within the hashtable that has a collision
 //Successfully hash a key to an in-range value
-class AppTest {
-
-    @Test
-    void keyReturnsValue() {
-
-        HashMap<String, String> hashTest = new HashMap<>();
-        hashTest.set("Maria", "meme");
-        hashTest.set("Cocomellon", "shose");
-
-        assertEquals(hashTest.get("Maria"), "meme");
-
-    }
-//    @Test
-//    void keyDoesNotExist() {
-//
-//        HashMap<String, String> hashTest = new HashMap<>();
-//        hashTest.set("Hadeel", "mume");
-//        hashTest.set("Meme", "girleee");
-//
-//        assertEquals(hashTest.get("Maria"), null);
-//
-//    }
-
-}
+class AppTest {}
