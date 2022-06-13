@@ -26,4 +26,30 @@ class AppTest {
        String string=  hashTable.repeatedWord(str);
         assertEquals(string, "it");
     }
+
+    @Test void appHas(){
+        LeftJoin leftJoinObj = new LeftJoin();
+        HashTable<String, String> stringHashTable = new HashTable<String,String>();
+        stringHashTable.set("diligent", "employed");
+        stringHashTable.set("fond", "enamored");
+        stringHashTable.set("guide", "usher");
+        stringHashTable.set("outfit", "garb");
+        stringHashTable.set("wrath", "anger");
+
+        HashTable<String, String> stringHashTable1 = new HashTable<String,String>();
+        stringHashTable1.set("diligent", "idle");
+        stringHashTable1.set("fond", "averse");
+        stringHashTable1.set("guide", "follow");
+        stringHashTable1.set("flow", "jam");
+        stringHashTable1.set("wrath", "delight");
+
+        //////////////////////////////////////////////////////////////////////////
+
+        String str = leftJoinObj.leftJoin(stringHashTable,stringHashTable1).toString();
+        System.out.println(str);
+
+        String string = "[ { diligent , employed , idle }  ,  { wrath , anger , delight }  ,  { fond , enamored , averse }  ,  { guide , usher , follow }  ,  { outfit , garb , null }  ]";
+
+        assertEquals(str,string);
+    }
 }
