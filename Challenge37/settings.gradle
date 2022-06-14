@@ -9,4 +9,7 @@
  */
 
 rootProject.name = 'business-trip'
+
+rootProject.name = 'graph-business-trip'
+
 include('app')
