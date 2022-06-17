@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
+import static com.hashtable.App.repeatedWord;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -46,10 +47,9 @@ class AppTest {
 @Test
     public void repeatedWTest (){
 
-            HashTable<String , String> repeatedWordTest = new HashTable<>();
-//            repeatedWordTest.set("Somthing1","Somth2");
-//            String result = repeatedWordTest.repeatedWord(
-//            System.out.println(result );
-
+//            HashTable<String , String> repeatedWordTest = new HashTable<>();
+         System.out.println("------------=REPEATED WORD=---------");
+        String resul = (repeatedWord("Once upon a time, there was a brave princess who..."));
+        assertEquals(resul , "a");
 }
 }
