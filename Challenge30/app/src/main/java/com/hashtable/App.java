@@ -3,11 +3,34 @@
  */
 package com.hashtable;
 
+
+import java.util.*;
+
 public class App {
 
     public static void main(String[] args) {
-
-        System.out.println("Challenge 30 Done !!! ");
+        System.out.println("------------=REPEATED WORD=---------");
+        System.out.println(repeatedWord("Once upon a time, there was a brave princess who..."));
 
     }
+
+
+    public static String repeatedWord(String word) {
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        String[] statement = word.split(" ");
+
+        for (String wordStr : statement ) {
+            if (wordStr.endsWith(",")){
+                wordStr =(wordStr == null || wordStr.length() == 0)? null : (wordStr.substring(0, wordStr.length() - 1));
+            }
+            int count = hashMap.get(wordStr.toLowerCase()) != null ? hashMap.get(wordStr) : 0;
+            if (count == 1){
+                return wordStr;
+            }
+            hashMap.put(wordStr.toLowerCase(), count + 1);
+        }
+
+        return null;
+    }
+
 }
