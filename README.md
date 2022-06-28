@@ -23,7 +23,7 @@
 | Challenge 31 | [Link](Challenge30/README.md) |
 | Challenge 32 | [Link ](Challenge30/README.md)|
 | Challenge 33 | [Link](Challenge33/README.md) |
-| Challenge 05 | [Link](https://github.com/HadeelDaragmeh158/reading-notes/blob/main/Class05/README.md) |
+| Challenge 36 | [Link](Challenge36/README.md) |
 | Challenge 07 | [Link](linked-list/README.md)|
 | Challenge 09 | [Link](Challenge09/Challenge09.md) |
 | Challenge 10 |[Link](Challenge10/README.md)|
