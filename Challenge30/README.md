@@ -21,6 +21,11 @@ It faced a problem in imlementathom of set method
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
+ ## Reated Word:
+![Screenshot 2022-06-28 152212](https://user-images.githubusercontent.com/97829483/176177553-d470d508-a2ce-449c-a558-b8afb511c234.png)
+
+
+
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 hashmapm is algorithm and i learn in this chalenge how i can use , and emplement this algorithm 
