@@ -24,6 +24,8 @@ It faced a problem in imlementathom of set method
  ## Reated Word:
 ![Screenshot 2022-06-28 152212](https://user-images.githubusercontent.com/97829483/176177553-d470d508-a2ce-449c-a558-b8afb511c234.png)
 
+ ## tree_intersection
+![Screenshot 2022-06-28 164734](https://user-images.githubusercontent.com/97829483/176227665-31914430-2077-4aa5-9f7d-7c38a4392fe5.png)
 
 
 ## Solution
