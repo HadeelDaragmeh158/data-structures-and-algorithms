@@ -24,8 +24,7 @@
 | Challenge 32 | [Link ](Challenge30/README.md)|
 | Challenge 33 | [Link](Challenge33/README.md) |
 | Challenge 36 | [Link](Challenge36/README.md) |
-| Challenge 07 | [Link](linked-list/README.md)|
-| Challenge 09 | [Link](Challenge09/Challenge09.md) |
-| Challenge 10 |[Link](Challenge10/README.md)|
-| Challenge 11 |[Link](Challenge11/README.md)|
-| Challenge 14 |[Link](Challenge14/README.md)|
+| Challenge 37 | [Link](Challenge37/README.md)|
+| Challenge 38 | [Link](Challenge09/Challenge09.md) |
+| Challenge 39 |[Link](Challenge10/README.md)|
+
