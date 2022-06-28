@@ -33,9 +33,6 @@ testing {
 }
 
 application {
-
-    mainClass = 'business.trip.App'
-
-    mainClass = 'graph.business.trip.App'
-
+    // Define the main class for the application.
+    mainClass = 'graph.depth.first.App'
 }

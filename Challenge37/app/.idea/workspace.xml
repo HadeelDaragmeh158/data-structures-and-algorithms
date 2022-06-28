@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="034d844d-de9f-4869-87c6-e48dcba76a10" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/BinaryTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/BinaryTree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/app/src/main/java/com/hashtable/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge30/app/src/test/java/com/hashtable/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge30/app/src/test/java/com/hashtable/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge41/app/src/main/java/Navigator/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge41/app/src/main/java/Navigator/Navigator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2AZUgsZSWZqUfimwWuVFoo6NFYM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="034d844d-de9f-4869-87c6-e48dcba76a10" name="Changes" comment="" />
+      <created>1655216716036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655216716036</updated>
+    </task>
+    <servers />
+  </component>
+</project>

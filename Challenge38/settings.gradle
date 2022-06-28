@@ -8,8 +8,5 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
-rootProject.name = 'business-trip'
-
-rootProject.name = 'graph-business-trip'
-
+rootProject.name = 'graph-depth-first'
 include('app')
