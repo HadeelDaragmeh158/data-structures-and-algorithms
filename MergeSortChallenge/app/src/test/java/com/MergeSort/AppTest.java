@@ -7,5 +7,24 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+      @Test
+    public void insertSortTest(){
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(8);
+        arrayList.add(5);
+        arrayList.add(27);
+        arrayList.add(1);
+        arrayList.add(17);
+        arrayList.add(15);
+        ArrayList<Integer> arr1 = App.mergeSort(arrayList);
+        ArrayList<Integer> arr2 = new ArrayList<>();
+        arr2.add(4);
+        arr2.add(8);
+        arr2.add(15);
+        arr2.add(17);
+        arr2.add(17);
+        arr2.add(1);
+        assertEquals(arr1 , arr2);
+    }
 
 }
