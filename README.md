@@ -19,6 +19,9 @@
 
 | Title  | Link |
 | --- | ----------- |
+
+| Challenge 27 | [Link](Challenge01/javaChallenge/README.md) |
+| Challenge 28 | [Link](Challenge01/javaChallenge/README.md) |
 | Challenge 30 | [Link](Challenge01/javaChallenge/README.md) |
 | Challenge 31 | [Link](Challenge30/README.md) |
 | Challenge 32 | [Link ](Challenge30/README.md)|
